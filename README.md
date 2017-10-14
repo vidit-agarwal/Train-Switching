@@ -50,15 +50,18 @@ This repo describes the project called Train Switching , which enables the user 
  
 ## Work
 
-:train: Trains tend to get delayed due to many social (roits), econimical, and climatical (fog, rains, etc.) issues.
+:train: Trains tend to get delayed due to many social (riots), economical, and climatical (fog, rains, etc.) issues.
 
-:train: Many trains with vacent breadths go un-occupied.
+:train: Many trains with vacant breadths go unoccupied.
 
-:train: Due to delayed trains many people lose their precious time and may be important events. If a person feels that its important then tries to make through everthing possible to make in time for a event.
+:train: Due to delayed trains many people lose their precious time and may be important events. If a person feels that it's important then the person tries to make through everything possible to make in time for a event.
 
 :train: We can can combine both the problems **Un-occupied seats** *and* **people with delayed trains** then we can have a system to reduce the problem.
 
- 
+:train: When intended user's (passenger) train get delayed then the user can have the option to get the earlier trains on the same route, if there are any seats vacant then the user can get that seat.
+
+:train: To be continued.
+
 # Contributors :
 
 :penguin: @jastisriradheshyam

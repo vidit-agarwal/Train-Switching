@@ -7,7 +7,7 @@ This repo describes the project called Train Switching , which enables the user 
 
 # Problem : 
 
-:point_right: This project solves the problem of long __*waiting*__ queue of people for the **delayed train** (In our project we have taken the case of Indian Railways but this product can be implemented for any transportation.). 
+:point_right: This project solves the problem of long __*waiting*__ of people for the **delayed train** (In our project we have taken the case of Indian Railways but this product can be implemented for any transportation.). 
    
 :point_right: Passengers hate waiting for delayed train due to any reason. We are trying to reduce this hate by providing an extra facility called "Train Switching" . 
    
@@ -37,4 +37,21 @@ This repo describes the project called Train Switching , which enables the user 
 
 :point_right: Indian Railway will get more passengers as their vacant seats are get occupied.
 
-:point_right: It will also reduce the corruption in some extent as TC can't sell the tickets to people for their own profit. 
+:point_right: It will also reduce the corruption in some extent as TC can't sell the tickets to people for their own profit.
+
+# Implementation :
+
+## Technologies
+ :train: **PHP** - for back end implementation.
+ 
+ :train: **MySQL** - for database.
+ 
+ :train: **Android SDK** - for android application.
+ 
+# Contributers :
+
+ :train: @jastisriradheshyam
+
+ :train: @vidit-agarwal
+
+ :train: @mishraanubhav59

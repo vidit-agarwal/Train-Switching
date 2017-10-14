@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Train Switch</string>
+    <string name="check_status">CHECK STATUS</string>
+</resources>

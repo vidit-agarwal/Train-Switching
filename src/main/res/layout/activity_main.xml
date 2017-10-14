@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hugeardor.vidit.trainswitch.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/inner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:id="@+id/card1">
+
+                <TextView
+                    android:id="@+id/ts"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="15dp"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#61747e"
+                    android:text="Ticket Status " />
+
+
+                <TextView
+                    android:id="@+id/get_ts"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="55dp"
+                    android:textSize="17sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#74a7c2"
+                    android:text="Status"
+                    android:paddingBottom="15dp"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:id="@+id/card2">
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+
+                    android:weightSum="1"
+
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:id="@+id/train_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="15dp"
+                        android:layout_weight="0.5"
+                        android:textSize="19sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#3f6879"
+                        android:text="  Train Name :" />
+
+
+                    <TextView
+                        android:id="@+id/tn"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="15dp"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#819ca9"
+                        android:text=" Name "
+                        android:paddingBottom="15dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+
+                    android:weightSum="1"
+
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="50dp">
+
+                    <TextView
+                        android:id="@+id/pnr_status"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="15dp"
+                        android:layout_weight="0.5"
+                        android:textSize="19sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#3f6879"
+                        android:text="  PNR Status :" />
+
+
+                    <TextView
+                        android:id="@+id/pnr"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="15dp"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#819ca9"
+                        android:text=" 90123ASDN89E "
+                        android:paddingBottom="15dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+
+                    android:weightSum="1"
+
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="100dp">
+
+                    <TextView
+                        android:id="@+id/passenger_source"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="15dp"
+                        android:layout_weight="0.5"
+                        android:textSize="19sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#3f6879"
+                        android:text="  Going From :" />
+
+
+                    <TextView
+                        android:id="@+id/source"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="15dp"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#819ca9"
+                        android:text=" Source Name : "
+                        android:paddingBottom="15dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+
+                    android:weightSum="1"
+
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="150dp">
+
+                    <TextView
+                        android:id="@+id/passenger_dest"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="15dp"
+                        android:layout_weight="0.5"
+                        android:textSize="19sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#3f6879"
+                        android:text="  PNR Destination :" />
+
+
+                    <TextView
+                        android:id="@+id/pnr_d"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="15dp"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#819ca9"
+                        android:text="  RamaKrishna "
+                        android:paddingBottom="15dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+
+                    android:weightSum="1"
+
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="200dp">
+
+                    <TextView
+                        android:id="@+id/date_journey"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="15dp"
+                        android:layout_weight="0.5"
+                        android:textSize="19sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#3f6879"
+                        android:text="  Date Of Journey:" />
+
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="15dp"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#819ca9"
+                        android:text="  12-oct-2017 "
+                        android:paddingBottom="15dp"/>
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content"
+    android:text="@string/check_status"
+    android:gravity="center"
+    android:background="#ff867c"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:theme="@style/MyButton"
+    android:layout_below="@+id/inner_layout"
+    />
+
+
+</RelativeLayout>

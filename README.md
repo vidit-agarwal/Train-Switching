@@ -42,16 +42,27 @@ This repo describes the project called Train Switching , which enables the user 
 # Implementation :
 
 ## Technologies
- :train: **PHP** - for back end implementation.
+:train: **PHP** - for back end implementation.
  
- :train: **MySQL** - for database.
+:train: **MySQL** - for database.
  
- :train: **Android SDK** - for android application.
+:train: **Android SDK** - for android application.
  
-# Contributers :
+## Work
 
- :train: @jastisriradheshyam
+:train: Trains tend to get delayed due to many social (roits), econimical, and climatical (fog, rains, etc.) issues.
 
- :train: @vidit-agarwal
+:train: Many trains with vacent breadths go un-occupied.
 
- :train: @mishraanubhav59
+:train: Due to delayed trains many people lose their precious time and may be important events. If a person feels that its important then tries to make through everthing possible to make in time for a event.
+
+:train: We can can combine both the problems **Un-occupied seats** *and* **people with delayed trains** then we can have a system to reduce the problem.
+
+ 
+# Contributors :
+
+:penguin: @jastisriradheshyam
+
+:penguin: @vidit-agarwal
+
+:penguin: @mishraanubhav59

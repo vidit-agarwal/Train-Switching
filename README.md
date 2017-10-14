@@ -1,5 +1,5 @@
 # Train-Switching
-![TrainSwitching](https://github.com/vidit-agarwal/Train-Switching/blob/master/logo.png)
+![TrainSwitching](https://github.com/vidit-agarwal/Train-Switching/blob/master/logo_2.png)
 
 This repo describes the project called Train Switching , which enables the user to switch their train in real time to another train coming earlier than the train for which he has bought the ticket . 
 
